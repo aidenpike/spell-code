@@ -1,5 +1,6 @@
-spells = open("spells.json", 'r')
-spell_read = spells.readline()
+import json
 
-while spell_read != "":
-    print(spell_read)
+with open("spells.json", 'r') as file:
+    spell_read = json.load(file)
+
+print(spell_read)
