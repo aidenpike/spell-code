@@ -5,7 +5,12 @@
         },
 
         "properties": {
+            "movement": {
+                "speed": 10
+            },
+
             "damage": {
+                "damage_type": "normal",
                 "damage_amount": 10
             }
         }   
