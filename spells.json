@@ -1,7 +1,6 @@
 {
-    "spell": {
+    "test spell": {
         "visual": {
-            "name": "test spell",
             "color": "#ffffff"
         },
 

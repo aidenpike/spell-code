@@ -8,9 +8,8 @@ The visuals would likely be made through react or pygame, with some sort of on-c
 A spell in spells.json would be set up like this:
 ```
 {
-    "spell": {
+    spell_name (string): {
         "visual": {
-            "name": string,
             "color": string (hex code)
         },
 
