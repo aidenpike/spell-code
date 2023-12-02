@@ -7,26 +7,23 @@ The visuals would likely be made through react or pygame, with some sort of on-c
 ## Structure
 A spell in spells.json would be set up like this:
 ```
-"spell_name" {
-    "properties": {
-        "damage": [
-            "damage_type": string;
-            "damage_amount": int;
-        ]
+{
+    "spell": {
+        "visual": {
+            "name": string,
+            "color": string (hex code)
+        },
 
-        "movement": [
-            "speed": int;
-        ]
+        "properties": {
+            "damage": {
+                "damage_amount": int
+                "damage_type": string
+            }
+        },
 
-        "special": [
-        
-        ]
-    }
-
-    "visual": {
-        "color": [
-        
-        ]
+        "special": {
+            
+        }   
     }
 }
 ```
