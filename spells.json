@@ -1,1 +1,14 @@
+{
+    "spell": {
+        "visual": {
+            "name": "test spell",
+            "color": "#ffffff"
+        },
 
+        "properties": {
+            "damage": {
+                "damage_amount": 10
+            }
+        }   
+    }
+}
