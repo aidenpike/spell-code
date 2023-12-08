@@ -10,7 +10,7 @@
             },
 
             "damage": {
-                "damage_type": "normal",
+                "damage_type": "Normal",
                 "damage_amount": 10
             }
         }   
