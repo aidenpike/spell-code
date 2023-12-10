@@ -1,7 +1,8 @@
 {
     "test spell": {
         "visual": {
-            "color": "#ffffff"
+            "color": "#ffffff",
+            "spritesheet": "test spell.png"
         },
 
         "properties": {
