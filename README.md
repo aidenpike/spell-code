@@ -5,10 +5,10 @@ I saw [this post](https://worldbuilding.stackexchange.com/questions/183368/magic
 The visuals would likely be made through react or pygame, with some sort of on-click event to fire the spell.
 
 ## Structure
-A spell in spells.json would be set up like this:
+A spell would be set up like this in JSON:
 ```
 {
-    spell_name (string): {
+    spell_name {
         "visual": {
             "color": string (hex code)
         },
@@ -18,15 +18,15 @@ A spell in spells.json would be set up like this:
                 "damage_amount": int
                 "damage_type": string
             }
-        },
-
-        "special": {
-            
-        }   
+        }
     }
 }
 ```
 
 This is all very tentative, but it will likely stay like this with some revisions.
 
-## Ideas 
+## TO-DO
+- Sprite Sheet Reader
+- on_hit() function
+- Reorganize code
+- Search through filepath
